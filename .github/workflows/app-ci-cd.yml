@@ -30,7 +30,7 @@ jobs:
           else
             REPO="${ACCOUNT_ID}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/${{ env.PROJECT }}-appointment";
           fi
-          echo "repo=$REPO" >> $GITHUB_OUTPUTbootstrap-structure.sh
+          echo "repo=$REPO" >> $GITHUB_OUTPUT
           echo "tag=${GITHUB_SHA}" >> $GITHUB_OUTPUT
 
       - name: Build image
