@@ -1,10 +1,10 @@
 name: Hello Manoj
 
-on: push
+#on: push
 
-jobs:
-my-job:
-runs-on: ubuntu-latest
+#jobs:
+#my-job:
+#runs-on: ubuntu-latest
 
 steps:
 - name: Print Hello Manoj
