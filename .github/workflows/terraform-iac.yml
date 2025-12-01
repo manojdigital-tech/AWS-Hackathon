@@ -1,5 +1,4 @@
 name: Terraform IaC
-
 on:
   pull_request:
     paths: ["terraform/**"]
