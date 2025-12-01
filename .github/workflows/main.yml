@@ -2,10 +2,10 @@ name: Hello Manoj
 
 #on: push
 
-#jobs:
-#my-job:
+jobs:
+my-job:
 #runs-on: ubuntu-latest
-
+run: echo "Hello Manoj!"
 steps:
 - name: Print Hello Manoj
-run: echo "Hello Manoj!"
+W#run: echo "Hello Manoj!"
