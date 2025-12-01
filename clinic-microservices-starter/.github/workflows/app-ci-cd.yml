@@ -1,5 +1,4 @@
 name: App CI/CD
-
 on:
   push:
     branches: ["main", "staging", "dev"]
