@@ -1,0 +1,9 @@
+variable "project_name"             { type = string }
+variable "vpc_id"                   { type = string }
+variable "public_subnet_ids"        { type = list(string) }
+variable "private_subnet_ids"       { type = list(string) }
+variable "task_exec_role_arn"       { type = string }
+variable "task_role_arn"            { type = string }
+variable "ecr_patient_repo_url"     { type = string }
+variable "ecr_appointment_repo_url" { type = string }
+variable "aws_region"               { type = string }
